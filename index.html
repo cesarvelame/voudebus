@@ -1,0 +1,259 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>VouDeBus</title>
+	<link rel="stylesheet" href="themes/voudebus.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.structure-1.4.4.min.css">
+	<link rel="stylesheet" href="themes/custom.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.mobile-1.4.4.min.js"></script>
+</head>
+<body>
+	<div data-role="page" id="home" data-title="VouDeBus">
+		<div data-role="header" data-position="inline">
+			<h1>
+				<a href="#home">
+					<img id="logo" data-url="home" src="images/logo.png" alt="Logo" />
+				</a>
+			</h1>
+		</div>
+		<div data-role="content">
+			<ul data-role="listview" id="busca" data-inset="true" data-filter-reveal="true" data-filter="true" data-filter-placeholder="Digite seu destino...">
+				<li><a href="#">Amargosa</a></li>
+				<li><a href="#">Cachoeira</a></li>
+				<li><a href="#">Camamu</a></li>
+				<li><a href="#">Candeias</a></li>
+				<li><a href="#">Castro Alves</a></li>
+				<li><a href="#">Conceição da Feira</a></li>
+				<li><a href="#">Conceição do Almeida</a></li>
+				<li><a href="#">Dom Macedo Costa</a></li>
+				<li><a href="#">Governador Mangabeira</a></li>
+				<li><a href="#">Feira de Santana</a></li>
+				<li><a href="#">Ilhéus</a></li>
+				<li><a href="#">Itabuna</a></li>
+				<li><a href="#">Ituberá</a></li>
+				<li><a href="#">Maragojipe</a></li>
+				<li><a href="#">Muniz Ferreira</a></li>
+				<li><a href="#">Muritiba</a></li>
+				<li><a href="#">Nazaré</a></li>
+				<li><a href="#">Porto Seguro</a></li>
+				<li><a href="#salvador">Salvador</a></li>
+				<li><a href="#">Santo Amaro</a></li>
+				<li><a href="#">Santo Antônio de Jesus</a></li>
+				<li><a href="#">São Felipe</a></li>
+				<li><a href="#">São Félix</a></li>
+				<li><a href="#">São Francisco do Conde</a></li>
+				<li><a href="#">São Sebastião do Passé</a></li>
+				<li><a href="#">Sapeaçu</a></li>
+				<li><a href="#">Saubara</a></li>
+				<li><a href="#">Teodoro Sampaio</a></li>
+				<li><a href="#">Terra Nova</a></li>
+				<li><a href="#">Valença</a></li>
+				<li><a href="#">Varzedo</a></li>
+			</ul>
+			<ul data-role="listview" id="menu" data-inset="true">
+				<li><a href="#sobre">Sobre o VouDeBus</a></li>
+			</ul>
+		</div>
+	</div>
+	<div data-role="page" id="sobre" data-title="VouDeBus">
+		<div data-role="header" data-position="inline">
+			<h1>
+				<a href="#home">
+					<img id="logo" data-url="home" src="images/logo.png" alt="Logo" />
+				</a>
+			</h1>
+		</div>
+		<div data-role="content">
+			<p>O VouDeBus é um web-app que lista os horários de ônibus para diversas localidades que saem da cidade de Cruz das Almas/BA.</p>
+			<p>Busque o destino e saiba todos os horários e empresas que oferecem o trajeto.</p>
+			<p>O aplicativo é software livre, licenciado sob a licença GNU GPLv2. O código fonte está disponível no <a href="https://github.com/cesarvelame/voudebus">GitHub</a>.</p>
+			<p>Desenvolvido por <a href="http://cesarvelame.com">César Velame</a>.</p>
+		</div>
+	</div>
+		<div data-role="page" id="salvador" data-title="VouDeBus">
+		<div data-role="header" data-position="inline">
+			<h1>
+				<a href="#home">
+					<img id="logo" data-url="home" src="images/logo.png" alt="Logo" />
+				</a>
+			</h1>
+		</div>
+		<div data-role="content">
+		<h2>Destino: Salvador</h2>
+			<div data-role="collapsible">
+				<h2>Segunda-Feira</h2>
+					<ul data-role="listview" data-filter="true" data-filter-placeholder="Digite o horário ou viação...">
+							<li>
+								<p><strong>04:15</strong></p>
+								<p>RD TURISMO TRANSPORTES RODOVIARIOS LTDA</p>
+								<p>CONVENCIONAL</p>
+							</li>
+							<li>
+								<p><strong>06:10</strong></p>
+								<p>RD TURISMO TRANSPORTES RODOVIARIOS LTDA</p>
+								<p>CONVENCIONAL</p>
+							</li>
+							<li>
+								<p><strong>09:50</strong></p>
+								<p>RD TURISMO TRANSPORTES RODOVIARIOS LTDA</p>
+								<p>EXECUTIVO</p>
+							</li>
+							<li>
+								<p><strong>17:10</strong></p>
+								<p>RD TURISMO TRANSPORTES RODOVIARIOS LTDA</p>
+								<p>EXECUTIVO</p>
+							</li>								
+					</ul>
+			</div>
+			<div data-role="collapsible">
+				<h2>Terça-Feira</h2>
+					<ul data-role="listview" data-filter="true" data-filter-placeholder="Digite o horário ou viação...">
+							<li>
+								<p><strong>04:15</strong></p>
+								<p>RD TURISMO TRANSPORTES RODOVIARIOS LTDA</p>
+								<p>ÔNIBUS RODOVIÁRIO CONVENCIONAL</p>
+							</li>
+							<li>
+								<p><strong>06:10</strong></p>
+								<p>RD TURISMO TRANSPORTES RODOVIARIOS LTDA</p>
+								<p>ÔNIBUS RODOVIÁRIO CONVENCIONAL</p>
+							</li>
+							<li>
+								<p><strong>09:50</strong></p>
+								<p>RD TURISMO TRANSPORTES RODOVIARIOS LTDA</p>
+								<p>EXECUTIVO</p>
+							</li>
+							<li>
+								<p><strong>17:10</strong></p>
+								<p>RD TURISMO TRANSPORTES RODOVIARIOS LTDA</p>
+								<p>EXECUTIVO</p>
+							</li>			
+					</ul>
+			</div>	
+			<div data-role="collapsible">
+				<h2>Quarta-Feira</h2>
+					<ul data-role="listview" data-filter="true" data-filter-placeholder="Digite o horário ou viação...">
+							<li>
+								<p><strong>04:15</strong></p>
+								<p>RD TURISMO TRANSPORTES RODOVIARIOS LTDA</p>
+								<p>ÔNIBUS RODOVIÁRIO CONVENCIONAL</p>
+							</li>
+							<li>
+								<p><strong>06:10</strong></p>
+								<p>RD TURISMO TRANSPORTES RODOVIARIOS LTDA</p>
+								<p>ÔNIBUS RODOVIÁRIO CONVENCIONAL</p>
+							</li>
+							<li>
+								<p><strong>09:50</strong></p>
+								<p>RD TURISMO TRANSPORTES RODOVIARIOS LTDA</p>
+								<p>EXECUTIVO</p>
+							</li>
+							<li>
+								<p><strong>17:10</strong></p>
+								<p>RD TURISMO TRANSPORTES RODOVIARIOS LTDA</p>
+								<p>EXECUTIVO</p>
+							</li>
+					</ul>
+			</div>
+			<div data-role="collapsible">
+				<h2>Quinta-Feira</h2>
+					<ul data-role="listview" data-filter="true" data-filter-placeholder="Digite o horário ou viação...">
+							<li>
+								<p><strong>04:15</strong></p>
+								<p>RD TURISMO TRANSPORTES RODOVIARIOS LTDA</p>
+								<p>ÔNIBUS RODOVIÁRIO CONVENCIONAL</p>
+							</li>
+							<li>
+								<p><strong>06:10</strong></p>
+								<p>RD TURISMO TRANSPORTES RODOVIARIOS LTDA</p>
+								<p>ÔNIBUS RODOVIÁRIO CONVENCIONAL</p>
+							</li>
+							<li>
+								<p><strong>09:50</strong></p>
+								<p>RD TURISMO TRANSPORTES RODOVIARIOS LTDA</p>
+								<p>EXECUTIVO</p>
+							</li>
+							<li>
+								<p><strong>17:10</strong></p>
+								<p>RD TURISMO TRANSPORTES RODOVIARIOS LTDA</p>
+								<p>EXECUTIVO</p>
+							</li>							
+					</ul>
+			</div>		
+			<div data-role="collapsible">		
+				<h2>Sexta-Feira</h2>
+					<ul data-role="listview" data-filter="true" data-filter-placeholder="Digite o horário ou viação...">
+							<li>
+								<p><strong>04:15</strong></p>
+								<p>RD TURISMO TRANSPORTES RODOVIARIOS LTDA</p>
+								<p>ÔNIBUS RODOVIÁRIO CONVENCIONAL</p>
+							</li>
+							<li>
+								<p><strong>06:10</strong></p>
+								<p>RD TURISMO TRANSPORTES RODOVIARIOS LTDA</p>
+								<p>ÔNIBUS RODOVIÁRIO CONVENCIONAL</p>
+							</li>
+							<li>
+								<p><strong>09:50</strong></p>
+								<p>RD TURISMO TRANSPORTES RODOVIARIOS LTDA</p>
+								<p>EXECUTIVO</p>
+							</li>
+							<li>
+								<p><strong>17:10</strong></p>
+								<p>RD TURISMO TRANSPORTES RODOVIARIOS LTDA</p>
+								<p>EXECUTIVO</p>
+							</li>							
+					</ul>
+			</div>	
+			<div data-role="collapsible">
+				<h2>Sábado</h2>
+					<ul data-role="listview" data-filter="true" data-filter-placeholder="Digite o horário ou viação...">
+							<li>
+								<p><strong>04:15</strong></p>
+								<p>RD TURISMO TRANSPORTES RODOVIARIOS LTDA</p>
+								<p>ÔNIBUS RODOVIÁRIO CONVENCIONAL</p>
+							</li>
+							<li>
+								<p><strong>06:10</strong></p>
+								<p>RD TURISMO TRANSPORTES RODOVIARIOS LTDA</p>
+								<p>ÔNIBUS RODOVIÁRIO CONVENCIONAL</p>
+							</li>
+							<li>
+								<p><strong>09:50</strong></p>
+								<p>RD TURISMO TRANSPORTES RODOVIARIOS LTDA</p>
+								<p>EXECUTIVO</p>
+							</li>
+							<li>
+								<p><strong>17:10</strong></p>
+								<p>RD TURISMO TRANSPORTES RODOVIARIOS LTDA</p>
+								<p>EXECUTIVO</p>
+							</li>							
+					</ul>
+			</div>	
+			<div data-role="collapsible">
+				<h2>Domingo</h2>
+					<ul data-role="listview" data-filter="true" data-filter-placeholder="Digite o horário ou viação...">
+							<li>
+								<p><strong>06:10</strong></p>
+								<p>RD TURISMO TRANSPORTES RODOVIARIOS LTDA</p>
+								<p>ÔNIBUS RODOVIÁRIO CONVENCIONAL</p>
+							</li>
+							<li>
+								<p><strong>09:50</strong></p>
+								<p>RD TURISMO TRANSPORTES RODOVIARIOS LTDA</p>
+								<p>EXECUTIVO</p>
+							</li>
+							<li>
+								<p><strong>17:10</strong></p>
+								<p>RD TURISMO TRANSPORTES RODOVIARIOS LTDA</p>
+								<p>EXECUTIVO</p>
+							</li>							
+					</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

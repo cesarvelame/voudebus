@@ -1,0 +1,14 @@
+#logo{
+	max-width: 80%;
+}
+.ui-title{
+	margin:0!important;
+}
+.center{
+	text-align:center;
+}
+.multi{
+    text-overflow: initial !important;
+    overflow: visible !important;
+    white-space: normal !important;
+}
